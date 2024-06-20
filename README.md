@@ -1,6 +1,6 @@
 # This code is the source code implementation for the paper "ACDP-pFSD: A Personalized Federated Self-Decoupled Distillation Framework with User-level Differential Privacy based Adaptive Clipping"！
 # Abstract
-![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD/blob/main/picture/4.png)
+![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD1/blob/main/picture/4.png)
 Federated learning faces two major challenges: data heterogeneity and privacy leakage risks. In response to these problems, this paper introduces a personalized federated distillation method with user-level differential privacy, named ACDP-pFSD. This method provides personalized models for each client
 while considering the performance of the global model and ensuring user-level differential privacy. Specifically, the method saves the personalized models locally from previous training. Through self-decoupled knowledge distillation, it learns personalized knowledge into the new local models to train models that match the client’s data distribution. Moreover, to mitigate the negative impact of user-level differential privacy on model performance, adaptive model update clipping is used to balance privacy and utility. Finally, extensive simulation experiments validate the effectiveness of ACDP-pFSD. The algorithm not only shows improved accuracy in both personalized and global models but also achieves a good balance between model performance and privacy protection.
 
@@ -48,10 +48,10 @@ while considering the performance of the global model and ensuring user-level di
 -   **DP_clip.py**: This code implements an adaptive clippping method for model updates
 
 ## Experimental Results
-![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD/blob/main/picture/1.png)Table 3 shows the accuracy of ACDP-pFSD algorithm across all three datasets.
-![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD/blob/main/picture/2.png)
+![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD1/blob/main/picture/1.png)Table 3 shows the accuracy of ACDP-pFSD algorithm across all three datasets.
+![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD1/blob/main/picture/2.png)
 Fig. 3 shaows the accuracy analysis at the Same Level of Privacy Protection.
-![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD/blob/main/picture/3.png)
+![输入图片说明](https://github.com/csmaxuebin/ACDP-pFSD1/blob/main/picture/3.png)
 Fig. 4 shows the performance of personalized and global models across all algorithms within the heterogeneous settings 𝑠1 and 𝑠2.
 
 ## Update log
